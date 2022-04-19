@@ -1,0 +1,223 @@
+.container {
+  margin: 0 20px;
+  margin-top: 20px;
+  max-width: 1200px;
+  width: 1200px;
+  margin-left: calc(50% - 600px);
+}
+
+.logo,
+.topmenu {
+  display: inline-block;
+}
+
+.topmenu {
+  float: right;
+  vertical-align: bottom;
+  padding-top: 160px;
+}
+
+.topmenu a {
+  font-size: 30px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+  color: rgb(124, 129, 121);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.logo > img {
+  height: 190px;
+  padding-left: 10px;
+}
+
+.banner {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-image: url("./images/imagebanner.jpg");
+  object-fit: cover;
+}
+
+.buttons {
+  width: 500px;
+  margin-left: calc(50% - 250px);
+}
+
+.buttons a {
+  font-family: "Patua One", cursive;
+  font-size: 60px;
+  color: rgb(124, 129, 121);
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: -2px;
+  margin: 0 10px;
+}
+
+.threeblocks div {
+  width: calc(33.33333% - 20px); 
+  text-align: center;
+  margin: 15px;
+  padding: 0px;
+  float: left;
+}
+
+.threeblocks div:nth-child(1) {
+  margin-left: 0px;
+}
+
+.threeblocks div:nth-child(3) {
+  margin-right: 0px;
+}
+
+.threeblocks {
+  padding-top: 100px;
+  width: 100%;
+  align-items: center;
+}
+
+.threeblocks img {
+  width: 90%;
+  padding-bottom: 10px;
+}
+
+.block {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  background-color: rgba(105, 93, 85, 0.719);
+}
+
+
+.block .textinho {
+  opacity: 0;
+  display: block;
+}
+
+.block:hover .textinho {
+  opacity: 1
+}
+
+
+.block:hover {
+  background-blend-mode: saturation;
+}
+
+.aboutme {
+  background-image: url(./images/aboutme.jpg);
+}
+
+.portfolio {
+  background-image: url(./images/portfolio.jpg);
+}
+
+.blog {
+  background-image: url(./images/Blog.jpg);
+}
+
+.threeblocks h1 {
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgba(248, 236, 236, 0.911);
+  margin: 0px;
+  margin-top: 100px;
+}
+
+.threeblocks p {
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgba(248, 236, 236, 0.911);
+  font-size: large;
+  margin: 0px;
+  padding-bottom: 60px;
+}
+
+footer {
+  float: left;
+  padding: 80px;
+  width: 100%;
+  border-top: 3px solid grey;
+}
+
+.malk {
+  padding-top: 30px;
+  float: left;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-image: url("./images/malka.jpg");
+  object-fit: cover;
+  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+.malk button {
+  float: right;
+  display: block;
+  height: 60px;
+  width: 160px;
+  border-radius: 5px;
+  border-style: none;
+  color:rgb(59, 43, 32);
+  font-family: "Arvo", serif;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+ 
+}
+.malk h1 {
+  font-size: 40px;
+  font-family: "Arvo", serif;
+  text-align: right;
+  padding-right: 30px;
+  color: rgb(59, 43, 32);
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.malk p {
+  font-family: "Arvo", serif;
+  text-align: right;
+  color: rgb(87, 63, 46);
+  padding-right: 40px;
+  margin-top: 0;
+}
+
+.menubot {
+  text-decoration: none;
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgb(95, 100, 92);
+  font-size: large;
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer .logo img {
+  height: 100px;
+}
+
+.menubot li {
+  list-style: none;
+  text-align: center;
+  
+}
+
+.menubot li a {
+  text-decoration: none;
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgb(95, 100, 92);
+  font-size: large;
+  line-height: 30px;
+}
+
+.rights {
+  text-decoration: none;
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgb(95, 100, 92);
+  font-size: small;
+  text-align: center;
+  display: block;
+}
