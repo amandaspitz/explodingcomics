@@ -1,0 +1,84 @@
+body, html {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    color: #2d302e;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #767f74;
+}
+
+.fullPage {
+    width: 1280px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px 12px #929b950c;
+    padding-top: 30px;
+    
+}
+
+.logo {
+    display: inline-block;
+    width: 400px;
+    padding-left: 100px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.titleMenu {
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    color: #767f74;
+    float: right;
+    padding-right: 100px;
+     
+}
+
+.menu {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: #767f74;
+    padding-top: 80px;
+    
+   
+}
+
+.comicStrip {
+    display: flex;
+    justify-content: center;
+}
+
+.comicStrip img {    
+    width: 1050px;
+
+}
+
+.weeklyBlog {
+    width: 900px;
+    color: #4a5248;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+footer {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.iconFoot img {
+    padding: 60px 30px 100px;
+    height: 60px;
+   
+}
