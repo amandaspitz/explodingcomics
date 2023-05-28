@@ -1,7 +1,11 @@
 body, html {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pangolin', cursive;
     margin: 0;
-    color: #2d302e;
+    color: #3e4c3b;
+}
+
+header {
+    padding: 0 30px;
 }
 
 a {
@@ -9,7 +13,7 @@ a {
 }
 
 a:visited {
-    color: #767f74;
+    color: #423424;
 }
 
 .fullPage {
@@ -33,9 +37,10 @@ a:visited {
 .titleMenu {
     font-family: 'Amatic SC', cursive;
     font-size: 90px;
-    color: #767f74;
+    color: #556352;
     float: right;
     padding-right: 100px;
+    font-weight: bold;
      
 }
 
@@ -45,10 +50,9 @@ a:visited {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    color: #767f74;
-    padding-top: 80px;
+    color: #423424;
     
-   
+    
 }
 
 .comicStrip {
@@ -62,11 +66,15 @@ a:visited {
 }
 
 .weeklyBlog {
-    width: 900px;
-    color: #4a5248;
+    width: 1020px;
+    color: #3e4c3b;
     text-align: justify;
     margin: 0 auto;
     padding-top: 60px;
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 300;
+    
 }
 
 footer {
@@ -78,7 +86,131 @@ footer {
 }
 
 .iconFoot img {
-    padding: 60px 30px 100px;
+    padding: 80px 30px 100px;
     height: 60px;
    
 }
+
+.bothFloat {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.numbFloat {
+    transform: rotate(-90deg);
+    color: #f2e9d1;
+    width: 260px;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(62 76 59 / 60%);
+    top: calc(50% - 130px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Pangolin', cursive;
+    margin-left: -100px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    
+}
+
+
+.issueNumber {
+    transform: rotate(-90deg);
+    width: 260px;
+    text-align: center;
+    margin-top: 115px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .fullPage {
+        width: 100%;
+    }
+
+    .logo {
+        padding: unset;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 180px;
+    }
+
+    .titleMenu {
+        padding: unset;
+        font-size: 25px;
+        float: unset;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .menu {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 700;
+        padding: unset;
+    }
+
+    .comicStrip {
+        width: 100%;
+    }
+
+    .comicStrip img {
+        width: 100%;
+    }
+    
+    .weeklyBlog {
+        width: calc(100% - 30px);
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        padding: 30px 0;
+    }
+
+    .menu {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 700;
+        padding: unset;
+        margin: unset;
+    }
+
+    footer {
+        width: calc(100% - 60px);
+        padding: 0 30px 55px;
+        justify-content: space-between;
+    }
+
+    .iconFoot img {
+        padding: unset;
+        height: 40px;
+    }
+
+    .numbFloat {
+        top: 40px;
+        width: 70px;
+        height: 50px;
+        position: fixed;
+        margin-left: -10px;
+    }
+
+    p.issueNumber {
+        transform: unset;
+        margin-top: 14px;
+        margin-left: 10px;
+        font-size: 18px;
+        width: 50px;
+    }
+
+    .comicStripName {
+        display: none;
+    }
+
+
+
+
+
+    
+ }
