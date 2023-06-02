@@ -35,6 +35,12 @@ const images = [
     url: "0006.png",
     text: "Is it supposed to be a Monday comic? Yes. Do I get overly excited and share it on Sunday? Maybe.",
   },
+  {
+    issueNumber: 007,
+    issueTitle: "Lazy Dog",
+    url: "0007.png",
+    text: "The dog always wants to go for walks. Unless it's 7am. I am absolutely swamped with work and javascript assignments, and that is why the website hasnt progressed one bit.",
+  },
 ];
 const imagesPath = "assets/comics/";
 
