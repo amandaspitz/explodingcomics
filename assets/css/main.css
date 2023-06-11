@@ -1,216 +1,206 @@
-body, html {
-    font-family: 'Pangolin', cursive;
-    margin: 0;
-    color: #3e4c3b;
+body,
+html {
+  font-family: "Pangolin", cursive;
+  margin: 0;
+  color: #3e4c3b;
 }
 
 header {
-    padding: 0 30px;
+  padding: 0 30px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
-    color: #423424;
+  color: #423424;
 }
 
 .fullPage {
-    width: 1280px;
-    margin: 0 auto;
-    box-shadow: 10px 10px 10px 12px #929b950c;
-    padding-top: 30px;
-    
+  width: 1280px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px 12px #929b950c;
+  padding-top: 30px;
 }
 
 .logo {
-    display: inline-block;
-    width: 400px;
-    padding-left: 100px;
+  display: inline-block;
+  width: 400px;
+  padding-left: 100px;
 }
 
 .logo img {
-    width: 300px;
+  width: 300px;
 }
 
 .titleMenu {
-    font-family: 'Amatic SC', cursive;
-    font-size: 90px;
-    color: #556352;
-    float: right;
-    padding-right: 100px;
-    font-weight: bold;
-     
+  font-family: "Amatic SC", cursive;
+  font-size: 90px;
+  color: #556352;
+  float: right;
+  padding-right: 100px;
+  font-weight: bold;
 }
 
 .menu {
-    font-family: 'Amatic SC', cursive;
-    font-size: 60px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    color: #423424;
-    
-    
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: #423424;
 }
 
 .comicStrip {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.comicStrip img {    
-    width: 1050px;
-
+.comicStrip img {
+  width: 1050px;
 }
 
 .weeklyBlog {
-    width: 1020px;
-    color: #3e4c3b;
-    text-align: justify;
-    margin: 0 auto;
-    padding-top: 60px;
-    font-size: 22px;
-    line-height: 38px;
-    font-weight: 300;
-    
+  width: 1020px;
+  color: #3e4c3b;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 60px;
+  font-size: 22px;
+  line-height: 38px;
+  font-weight: 300;
 }
 
 footer {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-        
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .iconFoot img {
-    padding: 80px 30px 100px;
-    height: 60px;
-   
+  padding: 80px 30px 100px;
+  height: 60px;
 }
 
 .bothFloat {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .numbFloat {
-    transform: rotate(-90deg);
-    color: #f2e9d1;
-    width: 260px;
-    height: 60px;
-    position: fixed;
-    background-color: rgb(62 76 59 / 60%);
-    top: calc(50% - 130px);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-family: 'Pangolin', cursive;
-    margin-left: -100px;
-    font-size: 24px;
-    letter-spacing: 1px;
-    
+  transform: rotate(-90deg);
+  color: #f2e9d1;
+  width: 260px;
+  height: 60px;
+  position: fixed;
+  background-color: rgb(62 76 59 / 60%);
+  top: calc(50% - 130px);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: "Pangolin", cursive;
+  margin-left: -100px;
+  font-size: 24px;
+  letter-spacing: 1px;
 }
 
-
 .issueNumber {
-    transform: rotate(-90deg);
-    width: 260px;
-    text-align: center;
-    margin-top: 115px;
-    font-size: 24px;
-    letter-spacing: 1px;
+  transform: rotate(-90deg);
+  width: 260px;
+  text-align: center;
+  margin-top: 115px;
+  font-size: 24px;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 768px) {
-    .fullPage {
-        width: 100%;
-    }
+  .fullPage {
+    width: 100%;
+  }
 
-    .logo {
-        padding: unset;
-        text-align: center;
-        width: 100%;
-    }
+  .logo {
+    padding: unset;
+    text-align: center;
+    width: 100%;
+  }
 
-    .logo img {
-        width: 180px;
-    }
+  .logo img {
+    width: 180px;
+  }
 
-    .titleMenu {
-        padding: unset;
-        font-size: 25px;
-        float: unset;
-        text-align: center;
-        letter-spacing: 2px;
-    }
+  .titleMenu {
+    padding: unset;
+    font-size: 25px;
+    float: unset;
+    text-align: center;
+    letter-spacing: 2px;
+  }
 
-    .menu {
-        width: 100%;
-        font-size: 30px;
-        font-weight: 700;
-        padding: unset;
-    }
+  .menu {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    padding: unset;
+  }
 
-    .comicStrip {
-        width: 100%;
-    }
+  .comicStrip {
+    width: 100%;
+  }
 
-    .comicStrip img {
-        width: 100%;
-    }
-    
-    .weeklyBlog {
-        width: calc(100% - 30px);
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: 1px;
-        padding: 30px 0;
-    }
+  .comicStrip img {
+    width: 100%;
+  }
 
-    .menu {
-        width: 100%;
-        font-size: 30px;
-        font-weight: 700;
-        padding: unset;
-        margin: unset;
-    }
+  .weeklyBlog {
+    width: calc(100% - 30px);
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding: 30px 0;
+  }
 
-    footer {
-        width: calc(100% - 60px);
-        padding: 0 30px 55px;
-        justify-content: space-between;
-    }
+  .menu {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    padding: unset;
+    margin: unset;
+  }
 
-    .iconFoot img {
-        padding: unset;
-        height: 40px;
-    }
+  footer {
+    width: calc(100% - 60px);
+    padding: 0 30px 55px;
+    justify-content: space-between;
+  }
 
-    .numbFloat {
-        top: 40px;
-        width: 70px;
-        height: 50px;
-        position: fixed;
-        margin-left: -10px;
-    }
+  .iconFoot img {
+    padding: unset;
+    height: 40px;
+  }
 
-    p.issueNumber {
-        transform: unset;
-        margin-top: 14px;
-        margin-left: 10px;
-        font-size: 18px;
-        width: 50px;
-    }
+  .numbFloat {
+    top: 40px;
+    width: 70px;
+    height: 50px;
+    position: fixed;
+    margin-left: -10px;
+  }
 
-    .comicStripName {
-        display: none;
-    }
+  p.issueNumber {
+    transform: unset;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 50px;
+  }
 
+  .comicStripName {
+    display: none;
+  }
+}
 
-
-
-
-    
- }
+.flag {
+  text-align: right;
+  margin-right: 20px;
+}
