@@ -114,7 +114,17 @@ footer {
   letter-spacing: 1px;
 }
 
+.flag {
+  text-align: right;
+  width: 1010px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
+  .flag {
+    width: 100%!important;
+  }
+  
   .fullPage {
     width: 100%;
   }
@@ -200,7 +210,14 @@ footer {
   }
 }
 
-.flag {
-  text-align: right;
-  margin-right: 20px;
+
+
+#toggleLanguage {
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+#toggleLanguage img {
+  width: 30px;
 }

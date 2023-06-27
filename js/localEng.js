@@ -47,6 +47,24 @@ const imagesEng = [
     url: "0008.png",
     text: "We had decided we would hold off a little before actually adopting, but then we saw her and it was love at first sight. We had some trouble to match the schedule with the angel who rescued her from the streets, but one Saturday I woke up and called her and she was coming to the city center so she decided to bring Garoa along. We were supposed to meet her to later decide whether we would adopt her or not, but we left home to meet up with the lady and casually bought a bag of dog food, dog biscuits, a little dog bed and some toys. Just because. She parked her car, Garoa got off, got the biscuits pack with her mouth and just pulled the leash towards the house, like she had lived with us all her life. This angel is called Meire, she does an amazing job with an association called Amor Sem Raça. If you are interested in helping her out, instagram.com/amorsemracaassociacao is her instagram. I plan on structuring a whole section of the website dedicated to helping her out, as she changes so many lives by rescuing dogs from the street and making her best to give each one a loving home.",
   },
+  {
+    issueNumber: 9,
+    issueTitle: "The stork",
+    url: "0009.png",
+    text: "This is actually self-plagiarism. I wrote this very comic for old Exploding Comics when I first explored the idea of adding a pet as a third character back in the day. I don't like the old storyboards, I think my storytelling style was not quite there yet. I've been redrawing some of the comics that were already posted (looking at you 1 and 5), because I drew some of them in a hurry. About the website: look at the amazing job I did putting up Portuguese and English options with a button and all! (LIES - I asked the frontend senior that sits by my side to code the entire thing for me). However, he did use Javascript Vanilla cause that's what I was going for, but I will recode the whole website myself (this time I will do it myself, I promise) in React, so I will probably fuck up some things along the week. Bear with me, this thing will be a beauty once it's ready.",
+  },
+  {
+    issueNumber: 10,
+    issueTitle: "Love",
+    url: "0010.png",
+    text: "Fun fact: I did have a total meltdown the first night we got her, because I was feeling an excessive amount of love.",
+  },
+  {
+    issueNumber: 11,
+    issueTitle: "A Family",
+    url: "0011.png",
+    text: "We were just a couple, Garoa turned us into a family.",
+  },
 ];
 
 const baseEng = {

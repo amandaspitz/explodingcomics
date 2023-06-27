@@ -21,6 +21,7 @@ const imageElement = document.getElementById("imageCarousel");
 const blogText = document.getElementById("blog-text");
 const topMenuLang = document.getElementById("topText");
 const toggleLanguage = document.getElementById("toggleLanguage")
+const flag = document.getElementById("bandeirinha")
 
 firstBtn.addEventListener("click", showFirstImage);
 previousBtn.addEventListener("click", showPreviousImage);
@@ -30,8 +31,10 @@ lastBtn.addEventListener("click", showLastImage);
 toggleLanguage.addEventListener("click", changeLanguage);
 
 function changeLanguage() {
+  const flagPath = 'assets/images/'
   isEnglish = !isEnglish;
-  isEnglish ? toggleLanguage.textContent = "EN" : toggleLanguage.textContent = "PT"
+  isEnglish ? flag.src = flagPath + 'flag-uk.png' : flag.src = flagPath + 'flag-br.png'
+  
   updateImageSource();
 }
 

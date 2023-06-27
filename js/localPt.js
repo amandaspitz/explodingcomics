@@ -48,6 +48,24 @@ const imagesPor = [
     url: "0008-pt.png",
     text: "Nós havíamos decidido esperar uns dois ou três meses para nos estruturar para adoção, mas já estávamos olhando o perfil da Associação Amor Sem Raça, quando um dia demos de cara com a foto da Garoa. Foi amor à primeira vista. Tentamos combinar de encontrar com a pessoa do abrigo algumas vezes e nos desencontramos. Um sábado, acordei e liguei pra ela. E ela estava vindo para o centro. Neste dia, combinamos de conhecer a Garoa, para depois decidirmos se iríamos adotar ou não. Sem compromisso, saímos de casa e antes de encontrá-la já havíamos comprado ração, biscoitos, uma caminha e brinquedos, haha. A Garoa desceu do carro, imediatamente pegou o pacote de biscoitos e puxou a coleira em direção ao apartamento, como se sempre tivesse sido nossa. Esse anjo se chama Meire, e caso estejam interessados em ajudar, o instagram da Associação Amor Sem Raça é instagram.com/amorsemracaassociacao . Eu ainda planejo estrutura uma parte do site para divulgar e ajudar a coletar doações para esse verdadeiro anjo, que muda a vida de tantos bebês abandonados na rua e traz tanto amor pra dentro de lares como o nosso. Obrigada por mudar nossa vida, Meire.",
   },
+  {
+    issueNumber: 9,
+    issueTitle: "A cegonha",
+    url: "0009-pt.png",
+    text: "Esse quadrinho é um ato de auto-plágio, pois escrevi ele exatamente igual há alguns anos atrás, quando decidi adicionar o guaxinim como um terceiro personagem no antigo comic. Olhando pra trás, eu percebo o quanto meus roteiros estavam ruins e faltava muito pra amadurecer o estilo de contação de história. Ah! E eu to redesenhando alguns comics já postados (como o número 1 e 5) porque havia previamente feito na correria. Sobre o site: olhem que maravilhoso trabalho eu fiz colocando um botão pra mudar o idioma (MEN TI RAS - quem fez isso foi o front sênior que trabalha ao meu lado). Ele refez todo código pra mim, consertando minhas cagadas e fazendo a troca de idiomas funcionar, mas eu prometo que vou redesenhar tudinho do zero (desta vez, eu mesma farei) usando React. Aguenta aí galera, quando ficar tudo pronto, isso aqui vai ser uma obra de arte",
+  },
+  {
+    issueNumber: 10,
+    issueTitle: "Amor",
+    url: "0010-pt.png",
+    text: "Não há provas de que isto realmente aconteceu.",
+  },
+  {
+    issueNumber: 11,
+    issueTitle: "Família",
+    url: "0011-pt.png",
+    text: "Nós éramos apenas um casal. A Garoa nos transformou em uma família",
+  },
 ];
 
 const basePor = {
