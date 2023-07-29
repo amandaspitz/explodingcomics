@@ -65,6 +65,30 @@ const imagesEng = [
     url: "0011.png",
     text: "We were just a couple, Garoa turned us into a family.",
   },
+  {
+    issueNumber: 12,
+    issueTitle: "Door Handle",
+    url: "0012.png",
+    text: "This literally happened, and it was one of our first dates. So as many of you know, I started running a side project called Very Terrible Monsters, and you can find it on vtm dot explodingcomics dot com. I have been as busy as it gets, trying to make two webcomics work while I try to learn Object Orientation, and MY BROTHER I do not wish this on my worst enemy. I am going to be rather busy for the next couple of weeks trying to translate the goddamn classes into something that I can understand, but the good news is that I have on month and a half of strips prepared. So you will not run out of explodingcomics to read. Unfortunately I can't say the same for VTm, as it is a more mature project, way out of my comfort zone and much harder for me to make it work. Oh. Because I am not overwhelmed enough, I am also running a DnD adventure that was supposed to be every fortnight but turned weekly cause everyone is too excited.",
+  },
+  {
+    issueNumber: 13,
+    issueTitle: "Solution",
+    url: "0013.png",
+    text: "Things are not well, but I managed to pull through and keep the comic updated.",
+  },
+  {
+    issueNumber: 14,
+    issueTitle: "At Dungeons Bar",
+    url: "0014.png",
+    text: "So many things happened at this place. Some of them would have to be told at the 18+ page.",
+  },
+  {
+    issueNumber: 15,
+    issueTitle: "Princess",
+    url: "0015.png",
+    text: "We've been through a lot, I'll talk more when I have time.",
+  },
 ];
 
 const baseEng = {

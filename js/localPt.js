@@ -66,6 +66,30 @@ const imagesPor = [
     url: "0011-pt.png",
     text: "Nós éramos apenas um casal. A Garoa nos transformou em uma família",
   },
+  {
+    issueNumber: 12,
+    issueTitle: "Maçaneta",
+    url: "0012-pt.png",
+    text: "Isso literalmente aconteceu, e era um dos nossos primeiros dates. Como muitos aqui sabem, eu comecei a publicar outro projeto de quadrinhos chamado Very Terrible Monsters, e vocês podem ler em vtm ponto explodingcomics ponto com. Eu não lembro da última vez que estive tão ocupada, e talvez tentar publicar dois quadrinhos enquanto aprendo Orientação ao Objeto não foi a coisa mais sagaz, MERMÃO eu não desejo aulas de OO pro meu pior inimigo. Entender estas aulas vai ser um grande desafio, mas a notícia boa é que temos um bom arquivo de explodingcomics preparado pra postar. Infelizmente não posso falar o mesmo do VTM, que tá super fora da minha zona de conforto e muito mais difícil de desenhar. Ah sim. Já que não estou sobrecarregada o suficiente, decidi mestrar uma campanha de D&D que era pra acontecer a cada 15 dias, mas todos ficaram super animados e virou semanal.",
+  },
+  {
+    issueNumber: 13,
+    issueTitle: "Solução",
+    url: "0013-pt.png",
+    text: "As coisas estão muito difíceis, mas somos feitos de ferro e fogo, então estamos aqui atualizando o quadrinho apesar da tempestade.",
+  },
+  {
+    issueNumber: 14,
+    issueTitle: "No Dungeons Bar",
+    url: "0014-pt.png",
+    text: "Agora nos resta avaliar quais histórias do Dungeons Bar poderão ser contadas aqui no site com censura livre.",
+  },
+  {
+    issueNumber: 15,
+    issueTitle: "Princesa",
+    url: "0015-pt.png",
+    text: "Vocês não tem noção do que passamos nas últimas semanas. Quando eu tiver tempo, falo mais.",
+  },
 ];
 
 const basePor = {
