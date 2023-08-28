@@ -90,7 +90,38 @@ const imagesPor = [
     url: "0015-pt.png",
     text: "Vocês não tem noção do que passamos nas últimas semanas. Quando eu tiver tempo, falo mais.",
   },
+  {
+    issueNumber: 16,
+    issueTitle: "Cara Sexy",
+    url: "0016-pt.png",
+    text: "Quem resistiria a uma conversa assim tão sedutora?",
+  },
+  {
+    issueNumber: 17,
+    issueTitle: "Frio na Barriga",
+    url: "0017-pt.png",
+    text: "Então... Eu realmente não sinto vontade de falar sobre minha vida no momento, mas sinto um senso de responsabilidade pelas pessoas que me leem, e como vocês sabem, tenho estado em um humor sombrio ultimamente. Muitas coisas aconteceram do início do ano até agora, mas o contexto é que estamos malemal sobrevivendo, um dia após o outro. Nossos salários diminuíram, nossas contas aumentaram, financeiramente as coisas estão mais difíceis do que nunca. Há um mês e meio, um parente de primeiro grau adoeceu, piorou e faleceu. Durante esse tempo, eu tive que ficar sozinha com Garoa por algumas semanas. Ela ficou doente várias vezes, porque é uma cachorra emocional e sentiu falta pai dela. Uma noite, ela vomitou no único edredom que eu tenho. Essa foi a noite em que as temperaturas caíram para 4 graus Celsius. Dois dias depois, queimei o dedo e a infecção foi tão grave que quase fui para o hospital. Lutei contra todas essas batalhas enquanto vivia sozinha. Diogo voltou para casa, e quando pensamos que as coisas se acalmariam, pegamos o vizinho espancando seu cachorro. Passamos a semana fazendo boletins de ocorrência e tentando fazer as pessoas se manifestassem para que a polícia agisse. Na segunda-feira passada, a polícia agiu, eles levaram o cachorro e prenderam o homem. Mas, menos de uma hora depois, eles ligaram para o Diogo dizendo que toda a responsabilidade era dele e que, se ele não pegasse o cachorro, eles o soltariam na rua. Diogo foi à delegacia resgatar o cachorro, mas a polícia deixou o homem sentado algemado bem em frente à sala. Então o cara viu o Diogo, e agora estamos vivendo com medo, pois sabemos que ele é incrivelmente violento. No meio da semana passada, outro parente próximo foi hospitalizado. Muitas vezes, pensei que estava sendo testada, estilo O Show de Truman. Estou no meu limite, mais uma vez. Mas estou aqui, de pé e lutando todos os dias porque não vou recuar. ",
+  },
+    {
+    issueNumber: 18,
+    issueTitle: "Parla!",
+    url: "0018-pt.jpg",
+    text: "Com toda loucura da vida, quase atrasei o quadrinho! Mas seguimos pontuais, há 16 semanas publicando sem parar. Estou muito empolgada com site, mas preciso fazer ajustes urgentes nele, como por exemplo, colocar a página de contato que vocês estão me pedindo e um botão de like. Pra isso preciso desenvolver um banco de dados e um backend, e só de pensar nisso já me dá uma dor de barriga, hahah! Estou trabalhando no meu emprego regular, estudando de noite e trabalhando em um projeto acadêmico de revitalização de um site de um cliente, que será feito em React. Estou amando cada uma dessas atividades, mas é claro que sobra pouco tempo pros projetos do coração. Eu prometo que vou dar o meu melhor para não furar o quadrinho semanal. No âmbito pessoal, agradeço todas as mensagens fofinhas que vocês me mandaram semana passada. Ter apoio e carinho dos amigos, da família e dos leitores é tudo pra mim. Tivemos mais uma semana normal, e isto é realmente excelente. Além disso, consegui dormir muitas horas esse fim-de-semana, e vocês não sabe o quanto eu gosto disso. heh.",
+  },
+  {
+    issueNumber: 19,
+    issueTitle: "Ah, não",
+    url: "0019-pt.jpg",
+    text: "Não previmos esse tipo de inconveniência.",
+  },
+  {
+    issueNumber: 20,
+    issueTitle: "Magical",
+    url: "0020.jpg",
+    text: "I like page spreads.",
+  },
 ];
+
 
 const basePor = {
   first: "PRIMEIRO",

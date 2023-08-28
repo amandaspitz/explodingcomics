@@ -89,6 +89,36 @@ const imagesEng = [
     url: "0015.png",
     text: "We've been through a lot, I'll talk more when I have time.",
   },
+  {
+    issueNumber: 16,
+    issueTitle: "Sexy Dude",
+    url: "0016.png",
+    text: "Such a charming flirt.",
+  },
+    {
+    issueNumber: 17,
+    issueTitle: "That Feeling",
+    url: "0017.png",
+    text: "So... I don't really feel like talking about my life at the moment but I feel some weird sense of responsibility to the people who read me, and as you are well aware I've been on a dark mood lately. Many things happened from the beginning of the year till now, but the context is that we are barely surviving, one day after another. Our salaries dropped, our bills increased, financially things are more difficult now than they've ever been during our life living together. A month and a half ago, we had a first degree relative falling sick, getting worse and passing away. During this time, I had to be alone with Garoa for some weeks. She got sick several times, because she is an emotional dog and missed her daddy. One night, she got sick on the only duvet I have. That was the night temperatures dropped to 4 degrees Celsius. Two days after, I had a burn on my finger getting infected so bad I nearly went to the hospital. All those battles I was fighting while living alone. Diogo came back home, and when we thought things would settle, we caught a neighbor beating up his dog. We spent the week filing police reports and trying to make people speak up so the police would act on it. Last Monday the police did act on it, they took the dog and got the guy arrested. But not an hour later, they called Diogo saying the entire responsibility of the whole thing was his and if he didn’t pick up the dog, they would release the animal on the street. Diogo went to the police station to rescue the dog, but the police let the guy sitting in handcuffs right in front of the station. So the guy saw Diogo, so now we are living in fear as we know for a fact that the guy is incredibly violent. In the middle of last week, we had another close relative hospitalized. Many times I thought I was being tested, Truman Show style. I am on my limit, once again. But I’m here, standing and fighting everyday cause I won’t back down. ",
+  },
+  {
+    issueNumber: 18,
+    issueTitle: "Parla!",
+    url: "0018.jpg",
+    text: "With all the fuckery of life, I almost missed this week's comic! But we're still punctual, 16 weeks of continuous updates. I'm really excited about the website, but I need to make urgent adjustments to it, like adding the contact page you've been asking for and a 'like' button. For that, I need to develop a database and a backend, and just thinking about it already gives me the chills, hahah! I'm working at my regular job, studying at night, and working on an academic project to revitalize a client's website, which will all be done in React. I love every one of these activities, but of course, there's little time left for passion projects. Furthermore, I promise I'll do my best not to miss the weekly comic. On a personal note, I appreciate all the sweet messages you sent me last week. Having support and affection from friends, family, and readers means everything to me. We had another normal week, and that's really excellent. Besides, I managed to sleep many hours this weekend, and you have no idea how much I enjoy that. heh.",
+  },
+  {
+    issueNumber: 19,
+    issueTitle: "Oh no",
+    url: "0019.jpg",
+    text: "We didn't forsee this kind of inconvenience.",
+  },
+  {
+    issueNumber: 20,
+    issueTitle: "Magical",
+    url: "0020.jpg",
+    text: "Intermission for a kiss.",
+  },
 ];
 
 const baseEng = {
