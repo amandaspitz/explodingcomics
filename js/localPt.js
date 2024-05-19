@@ -117,9 +117,58 @@ const imagesPor = [
   {
     issueNumber: 20,
     issueTitle: "Magical",
-    url: "0020.jpg",
+    url: "0020-pt.jpg",
     text: "I like page spreads.",
   },
+  {
+    issueNumber: 21,
+    issueTitle: "Empty",
+    url: "0021-pt.jpg",
+    text: "Quando fomos morar juntos, eu já tinha me mudado de casa 13 vezes. E cara, taí uma cura pra qualquer acumulador.",
+  },
+  {
+    issueNumber: 22,
+    issueTitle: "Pra cima",
+    url: "0022-pt.jpg",
+    text: "Duas piadas de peido em três semanas, e o prêmio de literatura vindo aí.",
+  },
+  {
+    issueNumber: 23,
+    issueTitle: "Tá no gen",
+    url: "0023-pt.jpg",
+    text: "Float like a butterfly sting like a bee.",
+  },
+  {
+    issueNumber: 24,
+    issueTitle: "O sofá",
+    url: "0024-pt.jpg",
+    text: "Um homem, um sofá.",
+  },
+  {
+    issueNumber: 25,
+    issueTitle: "Pandemia",
+    url: "0025-pt.jpg",
+    text: "Quem viveu, lembra.",
+  },
+  {
+    issueNumber: 26,
+    issueTitle: "Encolheu",
+    url: "0026-pt.jpg",
+    text: "Comecei a trabalhar presencial todos os dias, meu fim-de-semana foi um verdadeiro caos e adivinha? To sobrecarregada e esqueci de postar meu quadrinho. Espero que os milhões de leitores que usam o Exploding Comics como sua única fonte de motivação para segunda-feira tenham sobrevivido.",
+  },
+  {
+    issueNumber: 27,
+    issueTitle: "Correria!",
+    url: "0027-pt.jpg",
+    text: "Desculpa gentee, deixei a petaca cair por duas semanas seguidas. Aqueles que estão mais próximos de mim sabem que os últimos meses têm sido nada menos que horrorosos para mim e pra minha família. Como mencionei antes, tantas coisas aconteceram em 2023. Garoa ficou doente, tivemos morte na família, parentes hospitalizados e os problemas financeiros que vêm com tudo isso, entre tantas outras coisas menores que normalmente tirariam meu sono, mas diante desses problemas maiores, acabei deixando os pequenos de lado para resolver mais tarde. (Agora é 'mais tarde'). As duas últimas semanas foram especialmente agitadas. Para compensar tudo pelo que passamos, me afundei em trabalhos freelancers e aulas de inglês e tenho trabalhado sem parar. Além disso, perdi meus dois dias de trabalho em casa, então agora estou trabalhando presencialmente todos os cinco dias da semana, o que afetou muito minhas finanças, tempo e saúde. Tudo está se encaixando agora, e tenho trabalhado para ajustar minha rotina ao novo horário. Como resultado, tenho comido melhor e me exercitado mais, e, é claro, tudo começou a melhorar depois disso (um agradecimento às pílulas mágicas que meu psiquiatra recomendou). Bem, estou de volta, e o Exploding Comics deve voltar às publicações semanais. Talvez eu faça alguns ajustes no site, onde pretendo abrir uma seção de 'doações', já que muitos de vocês têm perguntado como podem apoiar meu trabalho. Peço desculpas por ter deixado a peteca cair nas últimas duas semanas. Eu sei que, embora isso seja apenas um projeto pessoal sem lucros, as pessoas acabam criando uma certa expectativa, e toda vez que um de vocês me pergunta por que não postei quadrinhos naquela semana, me sinto muito vaidosa e valorizada como profissional. Vocês são demais. Muito obrigado por me lerem. Com amor.",
+  },
+  {
+    issueNumber: 28,
+    issueTitle: "Exposição",
+    url: "0028-pt.jpg",
+    text: "E faz três semanas que o site quebrou e eu simplesmente não consegui mais colocar ele no ar. Claro que foi porque eu sou uma exímia programadora dedicada e completamente focada que ficou estudando todo esse tempo sem conseguir achar a solução, e não porque eu passei três finais de semana saindo como um animal, enchendo a cara e sofrendo de ressaca nos domingos né? De um mês e meio pra cá, começamos a receber diversas notícias boas. As coisas melhoraram, melhoraram pra valer (When it rains, it pours). A Garoa nunca mais ficou doente. Nossa vida está se estabilizando em uma rotina saudável. Consegui retomar regularidade de exercícios, alimentação e hobbies. Voltei a tocar piano. Claro que simultaneamente, bate uma euforia e a vontade de tirar o atraso de 8 meses patinando em casa e a gente simplesmente aceitou todos os rolês que apareceram. E como consequência disso eu tive dois dias de febre na semana passada e tô com uma gripe fortíssima. Estou muito feliz em terminar esse ano assim: cheia de vida, cheia de esperança pra 2024 (alô, clichê) e muitíssimo animada. Finalmente, depois de dois anos de dedicação intensa e foco total, estou trabalhando como Frontend e UI/UX em uma empresa muito maravilhosa. É um trabalho dos sonhos, eu trabalho de casa, me sinto desafiada com as tarefas e sinto que estou evoluindo muito como profissional. Ainda assim, sinto falta do meu antigo trabalho quase todo dia. Sinto muita falta de estar no escritório com meus amigos, do ambiente de trabalho e até mesmo de algumas tarefas. Mas esse é o momento de colher tudo que eu plantei e andar em direção aos meus objetivos.",
+  },
+
 ];
 
 

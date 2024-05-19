@@ -119,6 +119,60 @@ const imagesEng = [
     url: "0020.jpg",
     text: "Intermission for a kiss.",
   },
+  {
+    issueNumber: 21,
+    issueTitle: "Empty",
+    url: "0021.jpg",
+    text: "When we got together I had moved houses 13 times, and that kinda turns any person into a minimalistic individual.",
+  },
+  {
+    issueNumber: 22,
+    issueTitle: "Upside Down",
+    url: "0022.jpg",
+    text: "Two fart jokes in a three week spam, someone go get me an award already.",
+  },
+  {
+    issueNumber: 23,
+    issueTitle: "Genes",
+    url: "0023.jpg",
+    text: "Float like a butterfly sting like a bee.",
+  },
+  {
+    issueNumber: 24,
+    issueTitle: "A couch",
+    url: "0024.jpg",
+    text: "The man was really happy when he bought this couch.",
+  },
+  {
+    issueNumber: 25,
+    issueTitle: "Pandemic",
+    url: "0025.jpg",
+    text: "Remember?",
+  },
+  {
+    issueNumber: 26,
+    issueTitle: "It shrank",
+    url: "0026.jpg",
+    text: "I started working on-site everyday from this week on. My weekend was hectic, I am overwhelmed and guess what? Yeap. I completely forgot to post the comic yesterday. I hope my millions of readers managed to survive this Monday without their vital source of motivation.",
+  },
+  {
+    issueNumber: 26,
+    issueTitle: "It shrank",
+    url: "0026.jpg",
+    text: "I started working on-site everyday from this week on. My weekend was hectic, I am overwhelmed and guess what? Yeap. I completely forgot to post the comic yesterday. I hope my millions of readers managed to survive this Monday without their vital source of motivation.",
+  },
+  {
+    issueNumber: 27,
+    issueTitle: "We are busy!",
+    url: "0027.jpg",
+    text: "Oops, ball dropped for two weeks in a row. Those who are closer to me know that the past few months have been nothing short of horrifying for me. As I've mentioned before, so many things hit me in 2023. Garoa got sick, we had family deaths, hospitalized relatives, and the financial problems that come with all of this, among so many other minor things that would normally disrupt my life, but facing those major issues just became things I set aside to sort out later. (Now is “later”). The past two weeks have been especially busy. To make up for everything we've been through, I've swamped myself with freelance jobs and English classes and have been working nonstop. On top of that, I lost my two days working from home, so now I am in loco every single one of the five days of the week, and that took a big hit on my finances, time and health. All is falling into place now, and I have been working on setting up my routine to readjust to the new schedule. As a result, I've been eating better and exercising more, and, of course, everything started feeling better after that (shout out to the magic pills my psychiatrist recommended). Well, I am back, and the comics should be up and running. I might readjust the website a little bit, where I am going to open a “donations” section, since so many of you have been asking how you can support my work. I am so sorry for dropping the ball over the past two weeks. I know that even though this is just some free personal project, I like to keep it on schedule, and every time one of you asks me why I didn't post comics that week, I feel very vain and valued as a professional. You guys are too much. Thank you so, so much for reading me. Love from the three of us.",
+  },
+  {
+    issueNumber: 28,
+    issueTitle: "Exposição",
+    url: "0028-pt.jpg",
+    text: "And it's been three weeks since the website broke, and I simply couldn't get it back online. Of course, it's because I'm an excellent and completely dedicated programmer who spent all this time studying without being able to find the solution, and not because I spent three weekends partying like an animal, getting drunk, and suffering from hangovers on Sundays, right? For the past month and a half, we've been receiving various good news. Things have improved, really improved (When it rains, it pours). Garoa hasn't been sick anymore. Our life is stabilizing into a healthy routine. I managed to regain consistency in exercise, diet, and hobbies. I started playing the piano again. Of course, at the same time, there's a sense of euphoria and the desire to make up for 8 months of slacking at home, and we simply accepted all the invitations that came our way. As a consequence, I had two days of fever last week and now I have a very strong flu. I am very happy to end this year like this: full of life, full of hope for 2024 (hello, cliche) and very excited. Finally, after two years of intense dedication and total focus, I am working as a Frontend and UI/UX at a wonderful company. It's a dream job, I work from home, feel challenged with tasks, and feel that I am evolving a lot as a professional. Still, I miss my old job almost every day. I miss being in the office with my friends, the work environment, and even some tasks. But this is the time to reap everything I've sown and move towards my goals.",
+  },
 ];
 
 const baseEng = {
