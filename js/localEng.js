@@ -173,6 +173,12 @@ const imagesEng = [
     url: "0028-pt.jpg",
     text: "And it's been three weeks since the website broke, and I simply couldn't get it back online. Of course, it's because I'm an excellent and completely dedicated programmer who spent all this time studying without being able to find the solution, and not because I spent three weekends partying like an animal, getting drunk, and suffering from hangovers on Sundays, right? For the past month and a half, we've been receiving various good news. Things have improved, really improved (When it rains, it pours). Garoa hasn't been sick anymore. Our life is stabilizing into a healthy routine. I managed to regain consistency in exercise, diet, and hobbies. I started playing the piano again. Of course, at the same time, there's a sense of euphoria and the desire to make up for 8 months of slacking at home, and we simply accepted all the invitations that came our way. As a consequence, I had two days of fever last week and now I have a very strong flu. I am very happy to end this year like this: full of life, full of hope for 2024 (hello, cliche) and very excited. Finally, after two years of intense dedication and total focus, I am working as a Frontend and UI/UX at a wonderful company. It's a dream job, I work from home, feel challenged with tasks, and feel that I am evolving a lot as a professional. Still, I miss my old job almost every day. I miss being in the office with my friends, the work environment, and even some tasks. But this is the time to reap everything I've sown and move towards my goals.",
   },
+  {
+    issueNumber: 29,
+    issueTitle: "2024",
+    url: "0029.jpg",
+    text: "Good morning my dear ones. I am here ready to apologize for having broken the very first task on my priority list for 2024, which was to post Exploding Comics at least once a month. Anyone who has followed my life knows that 2023 was one of the most difficult years I have ever lived, and I am very grateful to have had so many shoulders to lean on and so many hands to hold. But through a lot of effort and hard work, we came out of the crisis and here we are. Strong, resilient, working harder than ever, which is why I couldn't come back sooner... However, from now on, I hope to bring comics back every week. In fact, I hope to make up for my absence by trying to release two comics a week for a while. Those who know me, know. Exploding is a part of my body. What I can say is: Everything is very well. Better than ever, perhaps.",
+  },
 ];
 
 const baseEng = {
