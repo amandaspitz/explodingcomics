@@ -115,9 +115,19 @@ footer {
 }
 
 .flag {
-  text-align: right;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
   width: 1010px;
   margin: 0 auto;
+}
+
+#issueSelector {
+  justify-self: start;
+}
+
+#toggleLanguage {
+  justify-self: end;
 }
 
 @media screen and (max-width: 768px) {
@@ -221,4 +231,24 @@ footer {
 
 #toggleLanguage img {
   width: 30px;
+}
+
+#issueSelector {
+  width: 200px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #49372A;
+  color: #3E4C3B;
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
+  background-color: #fff;
+  outline: none;
+  font-family: "Pangolin", cursive;
+}
+
+select::-ms-expand {
+  display: none;
 }
