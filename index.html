@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark" prefix="og: https://ogp.me/ns#">
   <head>
     <script
       async
@@ -17,9 +17,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Webcomics" />
+    <meta
+      name="description"
+      content="Exploding Comics is a webcomic series by Amanda Spitzner."
+    />
+    <link rel="canonical" href="https://explodingcomics.com/" />
+    <meta property="og:title" content="Exploding Comics" />
+    <meta
+      property="og:description"
+      content="Exploding Comics is a webcomic series by Amanda Spitzner."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://explodingcomics.com/" />
+    <meta property="og:site_name" content="Exploding Comics" />
+    <meta
+      property="og:image"
+      content="https://explodingcomics.com/assets/share/site-default.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://explodingcomics.com/assets/share/site-default.jpg"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Exploding Comics share preview" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Exploding Comics" />
+    <meta
+      name="twitter:description"
+      content="Exploding Comics is a webcomic series by Amanda Spitzner."
+    />
+    <meta
+      name="twitter:image"
+      content="https://explodingcomics.com/assets/share/site-default.jpg"
+    />
     <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" />
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=20260701-6" />
     <title>Exploding Comics</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
@@ -41,7 +75,10 @@
       <header>
         <div class="logo">
           <img
-            src="assets/images/logo.png"
+            id="siteLogo"
+            src="assets/images/logodarkmode4x.png"
+            data-dark-src="assets/images/logodarkmode4x.png"
+            data-light-src="assets/images/logo.png"
             alt="Exploding Comics Logo"
             title="Exploding Comics"
           />
@@ -49,11 +86,51 @@
         <div class="titleMenu" id="topText">COMICS EVERY MONDAY</div>
       </header>
 
-      <div class="flag"><select id="issueSelector"></select><button id="toggleLanguage"><img id ="bandeirinha" src="assets/images/flag-uk.png"></img></button></div>
+      <div class="flag">
+        <div class="customSelect" id="issueSelector">
+          <button
+            id="issueSelectorButton"
+            class="issueSelectorTrigger"
+            type="button"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-controls="issueSelectorMenu"
+          >
+            <span id="issueSelectorValue"></span>
+            <svg class="issueSelectorChevron" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M7 10l5 5 5-5"></path>
+            </svg>
+          </button>
+          <div
+            id="issueSelectorMenu"
+            class="issueSelectorMenu"
+            role="listbox"
+            aria-label="Choose comic"
+            aria-hidden="true"
+          ></div>
+        </div>
+        <button id="themeToggle" type="button" aria-label="Switch to light mode" title="Light mode">
+            <svg class="themeIcon themeSun" aria-hidden="true" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="4.25"></circle>
+              <rect x="11.25" y="1.5" width="1.5" height="4" rx=".75"></rect>
+              <rect x="11.25" y="18.5" width="1.5" height="4" rx=".75"></rect>
+              <rect x="18.5" y="11.25" width="4" height="1.5" rx=".75"></rect>
+              <rect x="1.5" y="11.25" width="4" height="1.5" rx=".75"></rect>
+              <rect x="16.87" y="4.04" width="1.5" height="4" rx=".75" transform="rotate(45 17.62 6.04)"></rect>
+              <rect x="5.63" y="15.28" width="1.5" height="4" rx=".75" transform="rotate(45 6.38 17.28)"></rect>
+              <rect x="15.96" y="16.87" width="4" height="1.5" rx=".75" transform="rotate(45 17.96 17.62)"></rect>
+              <rect x="4.04" y="5.63" width="4" height="1.5" rx=".75" transform="rotate(45 6.04 6.38)"></rect>
+            </svg>
+            <svg class="themeIcon themeMoon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M21 14.2A8.95 8.95 0 0 1 9.8 3a.55.55 0 0 0-.69.69A7.4 7.4 0 1 0 20.31 14.9a.55.55 0 0 0 .69-.7Z"></path>
+            </svg>
+        </button>
+        <button id="toggleLanguage" type="button" aria-label="Switch language" title="Switch language"><img id="bandeirinha" src="assets/images/flag-uk.png"></button>
+      </div>
 
       <div class="comicStrip">
         <img
-          src="assets/comics/eng/0001.png"
+          src="assets/comics/eng/0001.jpg"
           alt="Comic Strip"
           title="Comic Strip"
           id="imageCarousel"
@@ -71,15 +148,6 @@
       </div>
       <footer>
         <a
-          href="https://www.facebook.com/explodingcomics"
-          target="_blank"
-          class="iconFoot"
-          ><img
-            src="assets/images/facebook.svg"
-            alt="Facebook"
-            title="Facebook"
-        /></a>
-        <a
           href="https://www.instagram.com/explodingcomics/"
           target="_blank"
           class="iconFoot"
@@ -94,11 +162,89 @@
           class="iconFoot"
           ><img src="assets/images/github.svg" alt="Github" title="Github"
         /></a>
-        <a href="" target="" class="iconFoot"
-          ><img src="assets/images/pix.svg" alt="Pix" title="Pix"
+        <a
+          href="https://link.mercadopago.com.br/explodingcomics"
+          target="_blank"
+          class="iconFoot"
+        >
+          <img src="assets/images/pix.svg" alt="Pix" title="Pix"
         /></a>
-        <a href="" target="_blank" class="iconFoot"
-          ><img src="assets/images/share.svg" alt="Share" title="Share"
+        <a
+          href="https://linktr.ee/explodingcomics"
+          target="_blank"
+          class="iconFoot"
+          ><img
+            src="assets/images/linktree.svg"
+            alt="Linktree"
+            title="Linktree"
+        /></a>
+        <div class="shareWrap" id="shareWrap">
+          <button
+            id="shareButton"
+            type="button"
+            class="iconFoot iconFootButton"
+            aria-label="Share"
+            title="Share"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="shareMenu"
+          >
+            <img src="assets/images/share.svg" alt="Share" title="Share" />
+          </button>
+          <div
+            id="shareMenu"
+            class="shareMenuPanel"
+            aria-hidden="true"
+          >
+            <a
+              id="shareWhatsApp"
+              class="shareMenuItem"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+            </a>
+            <a
+              id="shareFacebook"
+              class="shareMenuItem"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
+            <a
+              id="shareTwitter"
+              class="shareMenuItem"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              X
+            </a>
+            <a
+              id="shareLinkedIn"
+              class="shareMenuItem"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <button id="copyShareLink" type="button" class="shareMenuItem">
+              Copy link
+            </button>
+          </div>
+        </div>
+        <a
+          href="https://www.facebook.com/explodingcomics"
+          target="_blank"
+          class="iconFoot"
+          ><img
+            src="assets/images/facebook.svg"
+            alt="Facebook"
+            title="Facebook"
         /></a>
       </footer>
     </div>
@@ -109,5 +255,5 @@
       </div>
     </div>
   </body>
-  <script src="dist/bundle.js"></script>
+  <script src="dist/bundle.js?v=20260701-7"></script>
 </html>

@@ -1,0 +1,3 @@
+ALTER TABLE comics
+  MODIFY issue_number INT NULL,
+  MODIFY slug VARCHAR(255) NULL;
